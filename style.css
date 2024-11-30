@@ -1,0 +1,92 @@
+*{
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    width: 80px;
+    
+    color:rgb(215, 219, 223);
+}
+#Ou{
+  display: flex;
+  
+}
+#main{
+    width: 25.0rem;
+    height: 27.0rem;
+    margin-top: 10%;
+    display:inline-block;
+    border: 0.5px solid rgb(215, 219, 223);
+    border-radius: 10px;
+}
+#Insta{
+    width:15.0rem;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+}
+input{
+    margin: 3px;
+    width: 20.0rem;
+    height: 2.0rem;
+    border-radius: 2px;
+    background-color: aliceblue;
+    border: 0.5px solid rgb(215, 219, 223);
+}
+input::placeholder{
+    float: left;  
+    margin-top: 8px;
+}
+button{
+    border: 0;
+    margin: 3px;
+    width: 21.0rem;
+    height: 2.5rem;
+    margin-top: 8px;
+    border-radius: 5px;
+    background-color: rgb(0, 162, 248);
+}
+#welcome{
+    color:#ffffff;
+}
+
+#face{
+    width: 15px;
+    height: 15px;
+    margin-top: 2px;
+    margin-right:5px;
+}
+#linkFace{
+    color: rgb(0, 162, 248);   
+}
+#linkFace:hover{
+    color:#1D3C78;;
+}
+#EsSenha{
+    margin-top:10px;
+    color:#1D3C78;
+    font-size: 10px;
+}
+#sec{
+    color: #1D3C78;
+    width: 25.0rem;
+    height: 5.0rem;
+    margin-top: 5px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(215, 219, 223);
+}
+#cadastro{
+    margin-top: 20px;
+}
+#cadastre-se{
+    color: rgb(0, 162, 248);   
+}
